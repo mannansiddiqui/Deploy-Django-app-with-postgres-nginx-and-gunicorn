@@ -45,3 +45,21 @@ We are good to go to launch an instance for this. Click the Launch instance butt
 ![Img-11](https://user-images.githubusercontent.com/74168188/178556301-ac2e5bdd-7efa-4ad4-99d9-b669e599eefd.png)
 
 Now, take the public IP from the EC2 dashboard and use it to login inside the instance using ssh. First move to the directory where the key is downloaded. In my case it's in downloads directory.
+
+![12](https://user-images.githubusercontent.com/74168188/180442775-2d40c558-e255-47c1-a5e9-de47bc588b76.png)
+![13](https://user-images.githubusercontent.com/74168188/180442952-271d82fd-06ea-450b-bfda-96cd109e7c88.png)
+
+Finally, it will be logged in successfully if everything is configured correctly.
+
+#### Step-2: Install the dependencies to run the Django app.
+
+Firstly, we need to update local apt package index using ```sudo apt update```
+
+![14](https://user-images.githubusercontent.com/74168188/180445474-da5a7513-143c-41ad-b138-0ff9d6e383c6.png)
+![15](https://user-images.githubusercontent.com/74168188/180445503-e7e9e8c1-25d0-442b-a865-daf524d29341.png)
+
+Then we need to install some packages i.e. python3-venv, python3-dev, libpq-dev, postgresql, postgresql-contrib, nginx, and curl.
+```sudo apt install python3-venv python3-dev libpq-dev postgresql postgresql-contrib nginx curl```
+
+![16](https://user-images.githubusercontent.com/74168188/180448999-9bd261f4-a587-421b-9f65-530c1c7c2bcc.png)
+![17](https://user-images.githubusercontent.com/74168188/180449320-39180b78-fee1-475c-b09d-b3daf35968f5.png)
