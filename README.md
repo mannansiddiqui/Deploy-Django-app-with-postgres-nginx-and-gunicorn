@@ -65,6 +65,10 @@ Then we need to install some packages i.e. **python3-venv** to create virtual en
 
 #### Step-3: Use Postgres as a database
 
+To check postgreSQL version use ```psql -V```
+
+![IMG](https://user-images.githubusercontent.com/74168188/180759453-c9aec058-0c8a-4a55-99c2-d56ed83fcc53.png)
+
 Now time to create postgreSQL database and user.
 For login inside postgres use ```sudo -u postgres psql```
 
