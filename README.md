@@ -125,6 +125,26 @@ Now create a django project in the project directory using ```django-admin start
 
 ![image](https://user-images.githubusercontent.com/74168188/180632815-84048b2b-c2ad-443c-af0a-0e424bad8bab.png)
 
+**Django Project Structure:**
+Django uses a directory structure to arrange the different parts of the web application.
+1. manage.py
+    This file contains code for runserver, or makemigration, or migration.
+
+2. _init_.py
+    This is an empty file and is only present to tell this directory is a package.
+    
+3. settings.py
+    This is main file of Django project and stores information of databases and allowed hosts.
+    
+4. urls.py
+    This file handles all the URLs of our web application.
+    
+5. wsgi.py
+    This file mainly concerns with the WSGI server and is used for deploying our applications on to servers.
+    
+6. asgi.py
+    ASGI can be considered as a succeeder interface to the WSGI.
+
 We have to make changes in setting.py file. In **ALLOWED_HOSTS** section we have to write the server's address or domain names may be used to connect to Django app.
 
 ![image](https://user-images.githubusercontent.com/74168188/180633085-418ca9aa-a50a-468f-a04b-c9e1f97402c1.png)
