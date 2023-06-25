@@ -2,12 +2,12 @@
 
 #### Description:
 
-- Launch an EC2 server.
-- Install the dependencies to run the Django app.
-- Use Postgres as a database.
-- Create a Django app and deploy it on the server.
+• Launch an EC2 instance.
+• Install the necessary dependencies to run the Django application.
+• Utilize Postgres as the database.
+• Create a Django application and deploy it on the instance.
 
-#### Step-1: Launch an EC2 server
+#### Step-1: Launch an EC2 instance.
 
 Firstly, log in to the AWS management console.
 
@@ -51,7 +51,7 @@ Now, take the public IP from the EC2 dashboard and use it to login inside the in
 
 Finally, it will be logged in successfully if everything is configured correctly.
 
-#### Step-2: Install the dependencies to run the Django app.
+#### Step-2: Install the necessary dependencies to run the Django application.
 
 Firstly, we need to update local apt package index using ```sudo apt update```
 
@@ -63,7 +63,7 @@ Then we need to install some packages i.e. **python3-venv** to create virtual en
 ![16](https://user-images.githubusercontent.com/74168188/180448999-9bd261f4-a587-421b-9f65-530c1c7c2bcc.png)
 ![17](https://user-images.githubusercontent.com/74168188/180449320-39180b78-fee1-475c-b09d-b3daf35968f5.png)
 
-#### Step-3: Use Postgres as a database
+#### Step-3: Utilize Postgres as the database.
 
 To check postgreSQL version use ```psql -V```
 
@@ -99,7 +99,7 @@ Postgres is now set up so that Django can connect to and manage its database inf
 
 ![image](https://user-images.githubusercontent.com/74168188/180631950-64957b32-8d87-45d2-af01-55a421c8cb84.png)
 
-#### Step-4: Create a Django app and deploy it on the server
+#### Step-4: Create a Django application and deploy it on the instance.
 
 Firstly, create and change into a directory to keep all project files:
 ```
